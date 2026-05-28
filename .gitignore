@@ -6,12 +6,7 @@
 dataset/
 
 # ------- Trained model weights -------
-*.pth
-*.onnx
-backend/model/*.pth
-backend/model/*.onnx
-model/*.pth
-model/*.onnx
+# (Removing ignores: We need to push the models to Hugging Face!)
 
 # ------- Python -------
 __pycache__/
