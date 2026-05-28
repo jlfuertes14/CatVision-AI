@@ -1,0 +1,49 @@
+# ===========================
+# CatVision AI — .gitignore
+# ===========================
+
+# ------- Datasets (too large for git) -------
+dataset/
+
+# ------- Trained model weights -------
+*.pth
+*.onnx
+backend/model/*.pth
+backend/model/*.onnx
+model/*.pth
+model/*.onnx
+
+# ------- Python -------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ------- Environment secrets -------
+.env
+.env.local
+.env.production
+
+# ------- Node / Next.js -------
+node_modules/
+.next/
+out/
+
+# ------- OS files -------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------- IDE -------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------- Jupyter -------
+.ipynb_checkpoints/

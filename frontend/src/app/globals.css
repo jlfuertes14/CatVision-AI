@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cafe-bg: #EBE1D1;
+  --color-cafe-card: #FFFFFF;
+  --color-cafe-green: #7B8C5C;
+  --color-cafe-brown: #4A2E1B;
+  --color-cafe-orange: #D48149;
+  --color-cafe-light: #FFF8F0;
+  
+  --font-sans: "Nunito", ui-sans-serif, system-ui;
+  --font-display: "Quicksand", ui-sans-serif, system-ui;
+}
+
+:root {
+  background-color: var(--color-cafe-bg);
+  color: var(--color-cafe-brown);
+  color-scheme: light;
+}
+
+/* Scalloped edge utility */
+.scallop-edge {
+  mask-image: radial-gradient(circle at 12px 12px, transparent 12px, black 12.5px);
+  mask-size: 24px 24px;
+  mask-repeat: repeat-x;
+  mask-position: bottom;
+}
+
+/* Custom Selection */
+::selection {
+  background: var(--color-cafe-orange);
+  color: #fff;
+}

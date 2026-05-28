@@ -1,0 +1,92 @@
+{
+  "abyssinian": {
+    "description": "One of the oldest known cat breeds, with a distinctive ticked coat that gives it a wild appearance.",
+    "origin": "Ethiopia (Abyssinia)",
+    "temperament": "Active, playful, curious, intelligent",
+    "lifespan": "12–16 years"
+  },
+  "american_bobtail": {
+    "description": "A sturdy, medium-to-large cat with a naturally short, bobbed tail and a wild appearance.",
+    "origin": "United States",
+    "temperament": "Playful, energetic, friendly, intelligent",
+    "lifespan": "11–15 years"
+  },
+  "american_shorthair": {
+    "description": "An easygoing and adaptable breed, known for its robust health and excellent hunting skills.",
+    "origin": "United States",
+    "temperament": "Even-tempered, sociable, independent, playful",
+    "lifespan": "15–20 years"
+  },
+  "bengal": {
+    "description": "A hybrid breed with a wild, leopard-like spotted or marbled coat pattern and a muscular build.",
+    "origin": "United States",
+    "temperament": "Energetic, playful, confident, vocal",
+    "lifespan": "12–16 years"
+  },
+  "birman": {
+    "description": "A color-pointed cat with silky fur, deep blue eyes, and distinctive white gloves on each paw.",
+    "origin": "Myanmar (Burma)",
+    "temperament": "Gentle, affectionate, quiet, social",
+    "lifespan": "12–16 years"
+  },
+  "bombay": {
+    "description": "A sleek, jet-black cat bred to resemble a miniature panther with striking copper or gold eyes.",
+    "origin": "United States",
+    "temperament": "Affectionate, playful, intelligent, lap-loving",
+    "lifespan": "12–18 years"
+  },
+  "british_shorthair": {
+    "description": "A sturdy, round-faced breed known for its dense plush coat and calm, easygoing personality.",
+    "origin": "United Kingdom",
+    "temperament": "Calm, easygoing, loyal, independent",
+    "lifespan": "12–20 years"
+  },
+  "egyptian_mau": {
+    "description": "The fastest domestic cat breed, naturally spotted with a graceful, muscular body and gooseberry-green eyes.",
+    "origin": "Egypt",
+    "temperament": "Active, loyal, playful, sensitive",
+    "lifespan": "12–15 years"
+  },
+  "maine_coon": {
+    "description": "One of the largest domesticated cat breeds, known for its tufted ears, bushy tail, and gentle giant personality.",
+    "origin": "United States",
+    "temperament": "Friendly, playful, affectionate, intelligent",
+    "lifespan": "12–15 years"
+  },
+  "persian": {
+    "description": "A long-haired breed with a flat face, round eyes, and a luxurious flowing coat that requires daily grooming.",
+    "origin": "Iran (Persia)",
+    "temperament": "Calm, sweet, gentle, quiet",
+    "lifespan": "12–17 years"
+  },
+  "ragdoll": {
+    "description": "A large, blue-eyed breed known for going limp when picked up, with a semi-long silky coat.",
+    "origin": "United States",
+    "temperament": "Docile, affectionate, gentle, relaxed",
+    "lifespan": "12–17 years"
+  },
+  "russian_blue": {
+    "description": "An elegant breed with a short, dense blue-gray coat, vivid green eyes, and a shy but loyal nature.",
+    "origin": "Russia",
+    "temperament": "Shy, gentle, quiet, loyal",
+    "lifespan": "15–20 years"
+  },
+  "siamese": {
+    "description": "An ancient breed with striking blue almond-shaped eyes, a sleek body, and a loud, distinctive voice.",
+    "origin": "Thailand (Siam)",
+    "temperament": "Vocal, social, intelligent, demanding",
+    "lifespan": "12–20 years"
+  },
+  "sphynx": {
+    "description": "A hairless breed known for its wrinkled skin, large ears, and extroverted clownish personality.",
+    "origin": "Canada",
+    "temperament": "Energetic, mischievous, affectionate, attention-seeking",
+    "lifespan": "12–16 years"
+  },
+  "tuxedo": {
+    "description": "Not a specific breed, but a striking bi-color coat pattern resembling a formal tuxedo suit.",
+    "origin": "Various",
+    "temperament": "Varies by breed, often friendly and outgoing",
+    "lifespan": "12–15 years"
+  }
+}
