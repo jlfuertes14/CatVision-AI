@@ -1,3 +1,12 @@
+---
+title: CatVision AI
+emoji: 🐱
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+---
+
 <div align="center">
   <img src="frontend/public/cat_icon.png" alt="CatVision AI Logo" width="120" />
   <h1>🐱 CatVision AI</h1>
