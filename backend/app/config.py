@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     breeds_json_path: str = "./breeds.json"
 
     # Comma-separated list of allowed CORS origins
-    allowed_origins: str = "http://localhost:3000"
+    allowed_origins: str = "http://localhost:3000,https://cat-vision-ai-ruby.vercel.app"
 
     # Maximum upload file size in megabytes
     max_file_size_mb: int = 10
