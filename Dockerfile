@@ -4,7 +4,7 @@ FROM node:20-alpine AS builder
 WORKDIR /app/frontend
 
 COPY frontend/package*.json ./
-RUN npm ci
+RUN npm install
 
 COPY frontend/ ./
 # Pass an empty string so the frontend API calls use relative paths (e.g. /api/predict)
