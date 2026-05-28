@@ -154,7 +154,7 @@ export default function Home() {
 
   const handleTrySample = useCallback(async () => {
     try {
-      const response = await fetch("/sample-cat.jpg");
+      const response = await fetch("https://media.githubusercontent.com/media/jlfuertes14/CatVision-AI/main/frontend/public/sample-cat.jpg");
       if (!response.ok) throw new Error("Sample image not found.");
       const blob = await response.blob();
       const file = new File([blob], "sample-cat.jpg", { type: "image/jpeg" });
@@ -266,7 +266,7 @@ export default function Home() {
 
         {/* Cat Silhouette Top Decor */}
         <div className="flex justify-center -mb-1">
-          <img src="/cat_icon.png" alt="Cat Icon" className="h-[64px] w-auto object-contain relative -z-10" />
+          <img src="https://media.githubusercontent.com/media/jlfuertes14/CatVision-AI/main/frontend/public/cat_icon.png" alt="Cat Icon" className="h-[64px] w-auto object-contain relative -z-10" />
         </div>
 
         {/* The "Olive Green" Cafe Card */}

@@ -2,17 +2,19 @@
 
 import { useEffect, useRef } from "react";
 
+const RAW_BASE = "https://media.githubusercontent.com/media/jlfuertes14/CatVision-AI/main/frontend/public";
+
 const FRAME_PATHS = Array.from(
   { length: 15 },
-  (_, index) => `/cat-pixelgif/frames/frame-${String(index).padStart(2, "0")}.png`,
+  (_, index) => `${RAW_BASE}/cat-pixelgif/frames/frame-${String(index).padStart(2, "0")}.png`,
 );
 const YARN_FRAME_PATHS = Array.from(
   { length: 7 },
-  (_, index) => `/catyarn/frames/frame-${String(index).padStart(2, "0")}.png`,
+  (_, index) => `${RAW_BASE}/catyarn/frames/frame-${String(index).padStart(2, "0")}.png`,
 );
 const TINY_FRAME_PATHS = Array.from(
   { length: 61 },
-  (_, index) => `/tinycat/frames/frame-${String(index).padStart(2, "0")}.png`,
+  (_, index) => `${RAW_BASE}/tinycat/frames/frame-${String(index).padStart(2, "0")}.png`,
 );
 const YARN_FRAME_DURATIONS = [100, 500, 100, 300, 200, 200, 500];
 
